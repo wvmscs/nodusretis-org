@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "generated_at": "2026-11-25T22:11:30Z",
+  "lists": [
+    {
+      "name": "ios",
+      "platform": "ios",
+      "file": "ios.csv",
+      "source": "https://raw.githubusercontent.com/permissionlesstech/bitchat/refs/heads/main/relays/online_relays_gps.csv",
+      "sha256": "b7e4ee0cad720a2b99bb19c80038c03c699d23bfa1abe856e78983a4b6bc4be2",
+      "changed_at": "2026-11-25T22:11:30Z",
+      "relays": 324,
+      "removed": 2
+    },
+    {
+      "name": "android",
+      "platform": "android",
+      "file": "android.csv",
+      "source": "https://raw.githubusercontent.com/permissionlesstech/georelays/main/nostr_relays.csv",
+      "sha256": "357ba4ffd8da3e8f2ae1481f8f358522bdc958f662a76e63f0683faa0e16211d",
+      "changed_at": "2026-11-25T22:11:30Z",
+      "relays": 378,
+      "removed": 5
+    }
+  ],
+  "check": {
+    "through": "tor",
+    "rotation_days": 7,
+    "tested": 69,
+    "refused": 6,
+    "untested": 413
+  }
+}
