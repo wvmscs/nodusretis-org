@@ -1,33 +1,33 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-27T05:10:43Z",
+  "generated_at": "2026-11-28T05:10:37Z",
   "lists": [
     {
       "name": "ios",
       "platform": "ios",
       "file": "ios.csv",
       "source": "https://raw.githubusercontent.com/permissionlesstech/bitchat/refs/heads/main/relays/online_relays_gps.csv",
-      "sha256": "b7e4ee0cad720a2b99bb19c80038c03c699d23bfa1abe856e78983a4b6bc4be2",
-      "changed_at": "2026-11-25T22:11:30Z",
-      "relays": 324,
-      "removed": 2
+      "sha256": "bc6222999ec678e5a88d342618ccbed87b674dd5beb0553741a77f600584af32",
+      "changed_at": "2026-11-28T05:10:37Z",
+      "relays": 335,
+      "removed": 8
     },
     {
       "name": "android",
       "platform": "android",
       "file": "android.csv",
       "source": "https://raw.githubusercontent.com/permissionlesstech/georelays/main/nostr_relays.csv",
-      "sha256": "480e9e2cec3589fe2f7f82780fd82626ee419b608bb4b72beff3d2eb23437b67",
-      "changed_at": "2026-11-27T05:10:43Z",
-      "relays": 376,
-      "removed": 8
+      "sha256": "4e1fee4be1c4dde29a11317bdd9f07fcd22d52c974646209db171041b90d61e1",
+      "changed_at": "2026-11-28T05:10:37Z",
+      "relays": 370,
+      "removed": 10
     }
   ],
   "check": {
     "through": "tor",
     "rotation_days": 7,
-    "tested": 205,
-    "refused": 9,
-    "untested": 280
+    "tested": 189,
+    "refused": 10,
+    "untested": 186
   }
 }
